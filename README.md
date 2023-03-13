@@ -22,8 +22,12 @@ Good luck and have fun!
 *  Is a shared component
 *  contains title and description
 
-### Extra: Login page
+## Extra: Login page
 *  Add guards to the entire website
 *  Not logged user should be redirected to the login page
 
+## Requirement
+* [ ] Follow our [standards](https://docs.megaphone.info/fr/folder-structure)
+
+## Assets
 ![xd file](./assets/create-basicExercice.xd)
