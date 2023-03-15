@@ -1,0 +1,45 @@
+:host {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    display: flex;
+    justify-content: flex-end;
+
+    mat-button-toggle-group {
+      margin: 1vw;
+    }
+  }
+
+  .sidenav {
+    width: 8vw;
+    padding: 0.5vw;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 5vw;
+
+    a {
+      padding-right: 0.5vw;
+      margin-top: 1vw;
+      padding-left: 0.5vw;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+
+      &:hover {
+        color: #f1f1f1;
+        border-radius: 0.2vw;
+        box-shadow: 0.05vw 0.05vw 0.1vw black;
+        background-color: #818181;
+      }
+    }
+  }
+}
