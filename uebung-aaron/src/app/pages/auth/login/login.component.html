@@ -1,0 +1,34 @@
+<div id="login">
+  <mat-card>
+    <mat-card-content>
+      <form #loginForm="ngForm" [formGroup]="myForm">
+        <h2>{{ "login" | translate }}</h2>
+        <mat-error *ngIf="!loginValid">
+          The username and password were not recognized
+        </mat-error>
+        <mat-form-field>
+          <input
+            matInput
+            [placeholder]="'Firstname' | translate"
+            name="username"
+            formControlName="Firstname"
+          />
+          <mat-error> Please enter your firstname </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input
+            matInput
+            type="text"
+            [placeholder]="'Nachname' | translate"
+            name="lastname"
+            formControlName="Lastname"
+          />
+          <mat-error> Please enter lastname</mat-error>
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="login()">
+          {{ "login" | translate }}
+        </button>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

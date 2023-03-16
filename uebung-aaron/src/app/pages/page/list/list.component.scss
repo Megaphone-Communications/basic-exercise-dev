@@ -1,0 +1,29 @@
+.main {
+  padding: 1.5vw;
+  background-color: white;
+
+  position: absolute;
+
+  border-radius: 0.2vw;
+  box-shadow: 0.05vw 0.05vw 0.1vw black;
+  position: absolute;
+  left: 15vw;
+  right: 15vw;
+  top: 35%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
