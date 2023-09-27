@@ -1,6 +1,6 @@
 # basic-exercise
 
-Hi there, we want to test here you ability to create a simple angular project.   
+Hi there, we want to test here my ability to create a simple angular project.   
 
 The following exercice should be doable within a day. 
 
